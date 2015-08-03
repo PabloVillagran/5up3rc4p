@@ -1,0 +1,131 @@
+@font-face{
+	font-family: 'Minecrafter';
+    src: url(fonts/Minercraftory.ttf);
+}
+
+@font-face{
+	font-family:'OratorStd';
+	src: url(fonts/OratorStd.otf);
+}
+
+@font-face{
+	font-family:'Myra 4F Caps Bold';
+	src: url(fonts/Myra4F.otf);
+}
+
+a{
+	text-decoration:none;
+}
+
+body{
+	background-color:#a2a6ad;
+	font-family:Helvetica;
+	margin:0;
+	padding:0;
+}
+
+header{
+	background-color:#29303d;
+	color:#ffffff;
+	margin:0;
+	padding:5px;
+}
+
+header p{
+	border: 2px solid #ffffff;
+	font-family:'Minecrafter';
+	font-size:80px;
+	margin:0;
+	padding:50px 0;
+	text-align: center;
+}
+
+nav{
+	background-color:#000000;
+	margin:0;
+}
+
+nav ul{
+	margin:0 /*auto*/;
+	padding:20px 0;
+	text-align:center;
+}
+
+nav ul li{
+	color:#ffffff;
+	display:inline-block;
+	font-family:'Myra 4F Caps Bold';
+	margin:0 20px;
+	text-align:center;
+	vertical-align: middle;
+	width:110px;
+	word-wrap: break-word;
+}
+
+nav ul li:hover{
+	color: #7bb4e5;
+}
+
+nav ul li a{
+	color:inherit;
+	text-decoration:none;
+}
+
+section{
+	height:714px;
+	margin: 3px 0;
+	overflow:hidden;
+	position:relative;
+	width:100%;
+}
+
+.contenedor{
+	background-color:#000000;
+	display:inline-block;
+	margin:0;
+	padding:23px 0;
+	width:50%;
+	z-index:5;
+}
+
+.encabezado{
+	background-color:#000000;
+	border:2px solid #ffffff;
+	color:#ffffff;
+	font-size:4.5vw;
+	height:100%;
+	margin:0 auto;
+	padding:25px 0;
+	text-align:center;
+	font-weight:bold;
+	width:92%;
+}
+
+#quienes1{
+	background-color:#29303d;
+	display:inline-block;
+	height:572px;
+	width:50%;
+}
+
+#quienes2{
+	background-color:#0b2654;
+	display:inline-block;
+	float:right;
+	height:429px;
+	position:absolute;
+	margin-left:3px;
+	width:50%;
+}
+
+#quienes3{
+	background-color:#0b1526;
+	bottom:0;
+	display:inline-block;
+	float:right;
+	height:140px;
+	margin-top:3px;
+	margin-left:3px;
+	position:absolute;
+	width:50%;
+}
