@@ -24,8 +24,13 @@ body{
 	padding:0;
 }
 
+footer{
+	background-color:#000000;
+	height:150px;
+}
+
 header{
-	background-color:#29303d;
+	background-color:#008c9e;
 	color:#ffffff;
 	margin:0;
 	padding:5px;
@@ -80,7 +85,7 @@ section{
 }
 
 .contenedor{
-	background-color:#000000;
+	background-color:#992c4b;
 	display:inline-block;
 	margin:0;
 	padding:23px 0;
@@ -89,7 +94,7 @@ section{
 }
 
 .encabezado{
-	background-color:#000000;
+	background-color:#992c4b;
 	border:2px solid #ffffff;
 	color:#ffffff;
 	font-size:4.5vw;
@@ -102,7 +107,7 @@ section{
 }
 
 #quienes1{
-	background-color:#29303d;
+	background-color:#003e4f;
 	display:inline-block;
 	height:572px;
 	width:50%;
@@ -128,4 +133,20 @@ section{
 	margin-left:3px;
 	position:absolute;
 	width:50%;
+}
+
+#sec_diplomados{
+	background-color:#015066;
+}
+
+#sec_software{
+	background-color:#275461;
+}
+
+#sec_venta{
+	background-color:#537d89;
+}
+
+#sec_contacto{
+	background-color:#427380;
 }
